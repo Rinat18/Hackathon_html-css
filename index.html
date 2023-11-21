@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Rinat</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- SIDEBAR START-->
+    <div class="sidebar">
+              <div class="logo_header">
+                <img src="./img/Logo.svg" alt="" />
+              </div>
+              <div class="nav_bar">
+                <a href="#home" class="header_nav header_nav_active">Home</a>
+                <a href="#about_me" class="header_nav">About me</a>
+                <a href="#porfolio" class="header_nav">Portfolio</a>
+                <a href="#skills" class="header_nav">Skills</a>
+                <a href="#recomendation" class="header_nav">Recommendations</a>
+              </div>
+    </div>
+    <!-- SIDEBAR END -->
+    <!-- MAIN -->
+    <content class="content">
+      <header>
+        <div class="header">
+          <div class="logo_header">
+            <img src="./img/Logo.svg" alt="" />
+          </div>
+          <div onclick="sideBar()" class="burger">
+            <img src="./img/burger-menu.png" alt="" />
+            <span>MENU</span>
+          </div>
+        </div>
+      </header>
+      <!-- HOME -->
+      <section id="home" class="section1">
+        <div class="section1_left">
+          <span>👋 Привет!</span>
+          <h2>
+            Dosmatov <br />
+            Rinat
+          </h2>
+          <p>Фронтенд-разработчик</p>
+          <div>
+            <img src="./img/linkedin.svg" alt="" />
+            <img src="./img/github.svg" alt="" />
+          </div>
+        </div>
+        <div class="section1_center">
+          <img src="./img/Group 68.png" alt="" />
+        </div>
+        <div class="section1_right">
+          <a>Скачать резюме <img src="./img/ArrowLineDown.svg" alt="" /></a>
+          <button><img src="./img/WhatsappLogo.svg" alt="" />What's app</button>
+        </div>
+      </section>
+      <!-- EXPIRIENCES -->
+      <section data-aos="fade-right" class="section2">
+        <div class="section2_cards">
+          <div class="section2_card">
+            <img src="./img/CodeIcon.svg" alt="" />
+            <p>Опыт 2 года</p>
+            <div>Программист</div>
+          </div>
+          <div class="section2_card">
+            <img src="./img/ProjectsIcon.svg" alt="" />
+            <p>Опыт 1 года</p>
+            <div>Работает</div>
+          </div>
+          <div class="section2_card">
+            <img src="./img/DesignIcon.svg" alt="" />
+            <p>Опыт 1 год</p>
+            <div>Дизайнер</div>
+          </div>
+        </div>
+        <div class="section2_experiences">
+          <div class="section2_experiences_dev">
+            <span>Developer</span>
+            <p>Front-end</p>
+          </div>
+          <div class="section2_experiences_dev">
+            <span>10 of projects and</span>
+            <p>Experiences</p>
+          </div>
+          <div class="section2_experiences_dev">
+            <span>Designer Freelancer</span>
+            <p>UI · UX</p>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT ME -->
+      <section id="about_me" class="section3">
+        <div class="section3_left">
+          <img src="./img/Фото 21.11.2023, 12.50.jpg" alt="" />
+        </div>
+        <div class="section3_right">
+          <span>🧐 Обо мне</span>
+          <div>Ринат Досматов</div>
+          <p>
+            👋 Меня зовут Ринат, но вы можете
+            звать меня просто Рико. 
+         </p>
+            <p> 
+                👨‍💻 Более 2 лет занимаюсь
+                разработкой и программированием интерфейсов с использованием
+                JavaScript, React JS и Typescript.
+            </p>
+            <p> 
+                🎓 Окончил курсы программирования в Makers напраления Front-end.
+            </p>
+            <p> 
+                💡 Интересуюсь фронтенд-разработкой с использованием React, React Native, VueJS и
+                UX/UI Design 
+            </p>
+            <p>
+                🚀Стараться каждый день испытать свой предел, что бы увеличить его растояние.
+            </p>
+          </p>
+        </div>
+      </section>
+      <!-- PORTFOLIO -->
+      <section id="porfolio" class="section4">
+        <div class="section4_title">
+            <div class="section4_title_left">
+                <span>🔗 Портфолио</span>
+                <div>Работы и проекты</div>
+            </div>
+            <div class="section4_title_right">
+                <button><img src="./img/DesignIcon.svg" alt="">UI Design</button>
+                <button><img src="./img/Group 67.svg" alt="">Design</button>
+                <button><img src="./img/CodeIcon.svg" alt="">Projects</button>
+            </div>
+        </div>
+        <div class="section4_cards">
+            <div class="section4_card">
+                <h2>Move.it</h2>
+                <p>
+                    Приложение Rocketseat NLW#04. Разработано с помощью React.
+                     Платформа Pomodoro с упражнениями.
+                </p>
+                <div class="section4_card_buttons">
+                    <button> <a href="./First_project/index.html">Online</a></button>
+                    <button>Typescript</button>
+                </div>
+                <img src="./img/image 1.png" alt="">
+            </div>
+            <div class="section4_card">
+                <h2>Move.it</h2>
+                <p>
+                    Приложение Rocketseat NLW#04. Разработано с помощью React.
+                     Платформа Pomodoro с упражнениями.
+                </p>
+                <div class="section4_card_buttons">
+                    <button><a href="./practice/index.html">Online</a></button>
+                    <button>Typescript</button>
+                </div>
+                <img src="./img/image 1.png" alt="">
+            </div>
+            <div class="section4_card">
+                <h2>Move.it</h2>
+                <p>
+                    Приложение Rocketseat NLW#04. Разработано с помощью React.
+                     Платформа Pomodoro с упражнениями.
+                </p>
+                <div class="section4_card_buttons">
+                    <button><a href="./practice_class_room/index.html">Online</a></button>
+                    <button>Typescript</button>
+                </div>
+                <img src="./img/image 1.png" alt="">
+            </div>
+            <div class="section4_card none">
+                <h2>Move.it</h2>
+                <p>
+                    Приложение Rocketseat NLW#04. Разработано с помощью React.
+                     Платформа Pomodoro с упражнениями.
+                </p>
+                <div class="section4_card_buttons">
+                    <button>Online</button>
+                    <button>Typescript</button>
+                </div>
+                <img src="./img/image 1.png" alt="">
+            </div>
+            <div class="section4_card none">
+                <h2>Move.it</h2>
+                <p>
+                    Приложение Rocketseat NLW#04. Разработано с помощью React.
+                     Платформа Pomodoro с упражнениями.
+                </p>
+                <div class="section4_card_buttons">
+                    <button>Online</button>
+                    <button>Typescript</button>
+                </div>
+                <img src="./img/image 1.png" alt="">
+            </div>
+            <div class="section4_card none">
+                <h2>Move.it</h2>
+                <p>
+                    Приложение Rocketseat NLW#04. Разработано с помощью React.
+                     Платформа Pomodoro с упражнениями.
+                </p>
+                <div class="section4_card_buttons">
+                    <button>Online</button>
+                    <button>Typescript</button>
+                </div>
+                <img src="./img/image 1.png" alt="">
+            </div>
+            
+        </div>
+        <div class="section4Btn">
+          <button class="section4_cards_btn" onclick="btnShow()">View All</button>
+
+        </div>
+      </section>
+      <!-- SKILLS -->
+      <section id="skills" class="section5">
+        <div class="section5_title">
+            <div>Видео проекты</div>
+            <p>Всегда полезно знать немного о редактировании</p>
+        </div>
+        <div class="section5_cards">
+            <div class="section5_card">
+                <img src="./img/image 2.png" alt="">
+                <div class="section5_card_desc1">
+                    <span>Move.it</span>
+                    <div>
+                        <button>React JS</button>
+                        <button>React JS</button>
+                    </div>
+                </div>
+                <div class="section5_card_desc2">
+                    <span>Move.it</span>
+                    <div>Посетить</div>
+                </div>
+            </div>
+            <div class="section5_card">
+                <img src="./img/image 2.png" alt="">
+                <div class="section5_card_desc1">
+                    <span>Move.it</span>
+                    <div>
+                        <button>React JS</button>
+                        <button>React JS</button>
+                    </div>
+                </div>
+                <div class="section5_card_desc2">
+                    <span>Move.it</span>
+                    <div>Посетить</div>
+                </div>
+            </div>
+            <div class="section5_card">
+                <img src="./img/image 2.png" alt="">
+                <div class="section5_card_desc1">
+                    <span>Move.it</span>
+                    <div>
+                        <button>React JS</button>
+                        <button>React JS</button>
+                    </div>
+                </div>
+                <div class="section5_card_desc2">
+                    <span>Move.it</span>
+                    <div>Посетить</div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- RECOMMENDATION -->
+      <section id="recomendation" class="section6">
+        <div class="section5_title">
+            <div>💬 Рекомендации</div>
+            <p>Рекомендация от курса Makers</p>
+        </div>
+        <div class="section5_cards">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" class="section5_card section6_card">
+                <img src="./img/Quotes.png" alt="">
+                <p>
+                    Ринат всегда учится и учится, стремясь улучшить то, что он делает. 
+                    Это ваше лучшее качество. Он всегда добивается своих целей, сосредоточен 
+                    и организован. Более того, технически то, что он намеревается сделать, он 
+                    делает хорошо. Всегда!
+                </p>
+                <div class="section6_card_person">
+                    <img src="./img/image 3.png" alt="">
+                    <div>
+                        <span>Elmar</span>
+                        <p>Treker группы JS37</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" class="section5_card section6_card">
+                <img src="./img/Quotes.png" alt="">
+                <p>
+                    Ринат всегда учится и учится, стремясь улучшить то, что он делает. 
+                    Это ваше лучшее качество. Он всегда добивается своих целей, сосредоточен 
+                    и организован. Более того, технически то, что он намеревается сделать, он 
+                    делает хорошо. Всегда!
+                </p>
+                <div class="section6_card_person">
+                    <img src="./img/image 3.png" alt="">
+                    <div>
+                        <span>Diana</span>
+                        <p>Treker группы JS37</p>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom" class="section5_card section6_card">
+                <img src="./img/Quotes.png" alt="">
+                <p>
+                    Ринат всегда учится и учится, стремясь улучшить то, что он делает. 
+                    Это ваше лучшее качество. Он всегда добивается своих целей, сосредоточен 
+                    и организован. Более того, технически то, что он намеревается сделать, он 
+                    делает хорошо. Всегда!
+                </p>
+                <div class="section6_card_person">
+                    <img src="./img/image 3.png" alt="">
+                    <div>
+                        <span>Adilet</span>
+                        <p>Mentor группы JS37</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      </section>
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer">
+            <div class="footer_tag">Copyright © Dosmatov Rinat · 2023</div>
+            <div>
+                <img src="./img/linkedin.svg" alt="" />
+                <img src="./img/github.svg" alt="" />
+            </div>
+            <div class="numbers">
+                <div class="tg">@axacy60 Telegram</div>
+                <div class="number">(+996) 555 303 123</div>
+            </div>
+        </div>
+      </footer>
+      <!-- END -->
+    </content>
+    <!-- MAIN -->
+  </body>
+  <script src="./main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

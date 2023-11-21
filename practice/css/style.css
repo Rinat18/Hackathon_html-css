@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.nav_bar {
+  background-color: rgb(50, 50, 50);
+  display: flex;
+  justify-content: center;
+  height: 90px;
+}
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: aliceblue;
+  font-size: 48px;
+}
+.psevdo_clases {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(33, 33, 33, 0.623);
+  padding-top: 50px;
+}
+.psevdo_clases > .container > div {
+  font-size: 36px;
+  color: aliceblue;
+}
+.psevdo_hover {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.psevdo_hover button {
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+}
+.psevdo_elements {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(33, 33, 33, 0.722);
+  padding-top: 50px;
+}
+.psevdo_elements > .container > div:first-child {
+  font-size: 36px;
+  color: white;
+}
+.after_before {
+  font-size: 20px;
+  color: antiquewhite;
+  margin-top: 40px;
+}
+.psevdo_elem {
+  margin-bottom: 40px;
+}
+.flexboxes {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(49, 49, 49, 0.937);
+  padding-top: 50px;
+}
+.flexboxes > .container > div:first-child {
+  font-size: 36px;
+  color: white;
+}
+.display_flex_block {
+  width: 800px;
+  height: 500px;
+  background-color: bisque;
+  border: 2px solid white;
+  margin: 40px 0;
+  display: block;
+}
+.display_flex_block div {
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(234, 210, 113);
+  background-color: white;
+}
+.flexjs {
+  display: flex;
+}
+.flexboxes button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 40px;
+}
+#one:hover {
+  background-color: blueviolet;
+}
+#two:focus {
+  color: blueviolet;
+}
+#three:active {
+  color: red;
+}
+#four a:link {
+  color: red;
+}
+#four a:visited {
+  color: aqua;
+}
+p:target {
+  color: aqua;
+}
+p::first-letter{
+    font-size: 48px;
+}
+p::after{
+    content: "-->";
+}
+p::before{
+    content: "Q";
+}
+p::selection{
+    background: blue;
+}
